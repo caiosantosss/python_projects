@@ -14,17 +14,17 @@ if answer == "left":
         print("Not a valid option. You lose")
 
 elif answer == "right":
-    q1 == input("You come to a bridge, it looks wobbly, do you want to cross it or head back?(cross/back) ").lower()
+    q3 = input("You come to a bridge, it looks wobbly, do you want to cross it or head back?(cross/back) ").lower()
 
-    if q2 == "back":
+    if q3 == "back":
         print("You go back to the main road. And a car killed you.")
-    elif q2 == "cross":
-        print("You cross the bridge and meet a stranger. Do you want to talk to them?(yes/no) ")
+    elif q3 == "cross":
+        q4 = input("You cross the bridge and meet a stranger. Do you want to talk to them?(yes/no) ")
 
-        if q2 == "yes":
-            print("You swam accross and were eaten by an alligator.")
-        elif q2 == "no":
-            print("You walked fot many miles, ran out of water and you lost the game")
+        if q4 == "yes":
+            print("You talk to the stranger and they give you gold. You WIN!!!")
+        elif q4 == "no":
+            print("You ignore the stranger and they are offended and you Lose!")
         else:
             print("Not a valid option. You lose")
 
@@ -33,3 +33,5 @@ elif answer == "right":
 
 else:
     print("Not a valid option. You lose")
+
+print("Thanks for trying", name, "! Good luck next time =)")
