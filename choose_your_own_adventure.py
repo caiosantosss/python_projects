@@ -10,6 +10,13 @@ if answer == "left":
         print("You swam accross and were eaten by an alligator.")
     elif q2 == "walk":
         q5 = input("You walked for many miles, and you see a dragon flying. Do you want to run for the trees or enter an abandoned car? (run/car)")
+
+        if q5 == "run":
+            print("You run into the trees and you find Rambo. You WIN!!!")
+        elif q5 =="car":
+            print("You enter in the car and the dragon put fire on it. You lose.")
+        else:
+            print("Not a valid option. You lose")
     else:
         print("Not a valid option. You lose")
 
