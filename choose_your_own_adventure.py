@@ -14,14 +14,12 @@ if answer == "left":
         if q5 == "run":
             q6 = input("You run into the trees and you find Rambo. But he ask you if you want the knife or the gun.(knife/gun)").lower()
 
-            if q5 == "knife":
+            if q6 == "knife":
                 print("Rambo teach you how to use a knife. You run to the dragon and you throw the knife into his heart. You WIN!")
-            elif q5 =="gun":
+            elif q6 =="gun":
                 print("You take the gun, the gun is without ammo and you die.")
             else:
                 print("Not a valid option. You lose")
-
-
 
         elif q5 =="car":
             print("You enter in the car and the dragon put fire on it. You lose.")
@@ -41,7 +39,14 @@ elif answer == "right":
         if q4 == "yes":
             print("You talk to the stranger and they give you gold. You WIN!!!")
         elif q4 == "no":
-            print("You ignore the stranger and they are offended and you Lose!")
+            q7 = input("You ignore the stranger and you find a mage! The mage talk with you asking if you want fire or ice? ").lower()
+
+            if q7 == "fire":
+                print("The !")
+            elif q7 =="ice":
+                print("You take the gun, the gun is without ammo and you die.")
+            else:
+                print("Not a valid option. You lose")
         else:
             print("Not a valid option. You lose")
 
