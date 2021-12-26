@@ -13,6 +13,16 @@ if answer == "left":
 
         if q5 == "run":
             q6 = input("You run into the trees and you find Rambo. But he ask you if you want the knife or the gun.(knife/gun)").lower()
+
+            if q5 == "knife":
+                print("You run into the trees and you find Rambo. You WIN!!!")
+            elif q5 =="gun":
+                print("You take the gun, the gun is without ammo and you die.")
+            else:
+                print("Not a valid option. You lose")
+
+
+
         elif q5 =="car":
             print("You enter in the car and the dragon put fire on it. You lose.")
         else:
