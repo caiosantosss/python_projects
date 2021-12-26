@@ -12,7 +12,7 @@ if answer == "left":
         q5 = input("You walked for many miles, and you see a dragon flying. Do you want to run for the trees or enter an abandoned car? (run/car)")
 
         if q5 == "run":
-            print("You run into the trees and you find Rambo. You WIN!!!")
+            q6 = input("You run into the trees and you find Rambo. But he ask you if you want the knife or the gun.(knife/gun)").lower()
         elif q5 =="car":
             print("You enter in the car and the dragon put fire on it. You lose.")
         else:
