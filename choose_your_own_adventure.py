@@ -15,7 +15,7 @@ if answer == "left":
             q6 = input("You run into the trees and you find Rambo. But he ask you if you want the knife or the gun.(knife/gun)").lower()
 
             if q5 == "knife":
-                print("You run into the trees and you find Rambo. You WIN!!!")
+                print("Rambo teach you how to use a knife. You run to the dragon and you throw the knife into his heart. You WIN!")
             elif q5 =="gun":
                 print("You take the gun, the gun is without ammo and you die.")
             else:
