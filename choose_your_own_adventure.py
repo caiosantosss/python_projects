@@ -42,9 +42,9 @@ elif answer == "right":
             q7 = input("You ignore the stranger and you find a mage! The mage talk with you asking if you want fire or ice? ").lower()
 
             if q7 == "fire":
-                print("The !")
+                print("The mage make a fire magic and turn you rich, You win!")
             elif q7 =="ice":
-                print("You take the gun, the gun is without ammo and you die.")
+                print("The mage frozen you. You lost.")
             else:
                 print("Not a valid option. You lose")
         else:
