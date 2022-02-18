@@ -32,7 +32,7 @@ elif answer == "right":
     q3 = input("You come to a bridge, it looks wobbly, do you want to cross it or head back?(cross/back) ").lower()
 
     if q3 == "back":
-        print("You go back to the main road. And a car killed you.")
+        print("You go back to the main road. And a car killed you. You lose!")
     elif q3 == "cross":
         q4 = input("You cross the bridge and meet a stranger. Do you want to talk to them?(yes/no) ")
 
