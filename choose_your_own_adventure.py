@@ -37,7 +37,7 @@ elif answer == "right":
         q4 = input("You cross the bridge and meet a stranger. Do you want to talk to them?(yes/no) ")
 
         if q4 == "yes":
-            print("You talk to the stranger and they give you gold. You WIN!!!")
+            print("You talk to the stranger and they give you gold. You WIN!!! Congrats!")
         elif q4 == "no":
             q7 = input("You ignore the stranger and you find a mage! The mage talk with you asking if you want fire or ice? ").lower()
 
