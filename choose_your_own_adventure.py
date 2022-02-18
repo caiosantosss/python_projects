@@ -26,7 +26,7 @@ if answer == "left":
         else:
             print("Not a valid option. You lose, try again later.")
     else:
-        print("Not a valid option. You lose")
+        print("Not a valid option. You lose, try again later.")
 
 elif answer == "right":
     q3 = input("You come to a bridge, it looks wobbly, do you want to cross it or head back?(cross/back) ").lower()
