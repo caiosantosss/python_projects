@@ -24,7 +24,7 @@ if answer == "left":
         elif q5 =="car":
             print("You enter in the car and the dragon put fire on it. You lose.")
         else:
-            print("Not a valid option. You lose")
+            print("Not a valid option. You lose, try again later.")
     else:
         print("Not a valid option. You lose")
 
